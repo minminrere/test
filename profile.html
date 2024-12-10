@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로필</title>
+    <style>
+        * {margin: 0;padding: 0; box-sizing: border-box;
+        }
+        body { font-family: 'Arial', sans-serif; background-color: rgb(230, 242, 255); color: #333; line-height: 1.6;}
+        header {display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #f4f4f9;}
+        #menu {display: flex; gap: 15px; list-style: none;}
+        #menu li a {text-decoration: none; color: #333; font-weight: bold;}
+        .container {max-width: 800px; margin: 50px auto; padding: 20px; background-color: white; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 10px;}
+        .profile-header { display: flex; align-items: center; gap: 20px;
+        }
+        .profile-header img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover;
+        }
+        .profile-header h1 { font-size: 2em; color: #4c81af;}
+        .profile-content { margin-top: 20px;}
+        .profile-content p {margin-bottom: 15px;}
+        footer {margin-top: 40px; padding: 20px; text-align: center; background-color: #4c91af; color: white; border-radius: 10px;}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="main.html"><img src="./img/wedwed.png" alt="Logo" width="200px"></a>
+        </div>
+        <ul id="menu">
+            <li><a href="profile.html">프로필</a></li>
+            <li><a href="past.html">🕰️과거🕰️</a></li>
+            <li><a href="now.html">🕛현재🕛</a></li>
+            <li><a href="future.html">🕓미래🕓</a></li>
+            <li><a href="item.html">🪄아이템🪄</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="profile-header">
+            <img src="./img/front.jpg" alt="프로필 사진">
+            <h1>권혁민</h1>
+        </div>
+        <div class="profile-content">
+            <h2>소개</h2>
+            <p>안녕하세요! 세계 최고의 디자이너가 되기 위해 열심히 공부하는 권혁민입니다!</p>
+            <h2>관심사</h2>
+            <p>3D 디자인 모델링, 디자인, 해양생물, 만화, 애니, 오컬트등 다양한 분야에 관심을 가지고 세상을 보는 시선을 넓히고있습니다!</p>
+            <h2>가치관</h2>
+            <p>시간 약속은 무조건 잘 지키기</p>
+            <p>항상 긍정적으로 생각하려고 노력하기</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 디지털미디어디자인과-권혁민. @hyeokking_0102 @hyeokmin6080@gmail.com</p>
+    </footer>
+</body>
+</html>
